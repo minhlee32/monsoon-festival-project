@@ -1,0 +1,453 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    width: 1300px;
+    height: 800px;
+}
+.wrapper {
+    width: 1300px;
+    height:100%;
+    float: left;
+}
+.wrapper #wrapper-left-section {
+    width: 260px;
+    position: relative;
+    height: 100%;
+    background-color: #090909;
+    float: left;
+    left: 0px;
+}
+.wrapper #wrapper-right-section {
+    width: 1000px;
+    position: relative;
+    height: 100%;
+    background-color: transparent;
+    float: left;
+}
+.wrapper #wrapper-right-section .page-content {
+    width:880px;
+    height: 100%;
+    background-color: transparent;
+    float:left;
+}
+
+.banner-overlay #banner img {
+    align-content: center;
+}
+#banner {
+    margin-left: 100px;
+}
+#left-menu {
+    width: 230px;
+    height: 100%;
+    float: left;
+}
+header {
+    width: 230px;
+    height: 250px;
+    float: left;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.main-menu {
+    width: 230px;
+    height: 100%;
+    float: left;
+    margin: auto;
+    padding-top: 50px;
+    background-color: black;
+}
+#menu {
+    width: 230px;
+    float: left;
+    position: relative;
+}
+#menu ul {
+    margin: 0px;
+    padding:0px;
+    float: left;
+}
+#menu ul li {
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    width: 230px;
+    height: 50px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+#menu ul li:hover {
+    background: #F88A0C;
+    width: 230px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    width: 200px;
+    color: white;
+    font-family: Montserrat;
+    margin-left: 5px;
+}
+/*#menu ul li a:hover {*/
+    /*background: #F88A0C;*/
+    /*width: 230px;*/
+/*}*/
+#menu .dropdown {
+    position: absolute;
+    left:230px;
+    top:0;
+    display:none;
+    background: black;
+    z-index: 10;
+    opacity: 0.9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: right;
+    padding: 0;
+}
+#menu ul li:hover .dropdown {
+    display: block;
+    /*margin-right: 5px ;*/
+}
+#menu .sub-menu {
+    position: absolute;
+    left:230px;
+    top:0;
+    display: none;
+    z-index: 10;
+    background-color: black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: right;
+}
+#menu ul li:hover .sub-menu {
+    display: block;
+}
+.footer-bottom {
+    background: #090909;
+    clear: both;
+    position: relative;
+    top:15px;
+    height: 100%;
+    width: 260px;
+}
+.footer-bottom input {
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 15px;
+    font-family: Montserrat;
+    width: 220px;
+    height: 25px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-color: transparent;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: transparent;
+    color: white;
+}
+
+.fa-youtube {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+.footer-bottom p {
+    color: grey;
+    font-family: Montserrat;
+    font-size: 16px;
+    text-align: center;
+}
+#language {
+    float: right;
+    top:0;
+    width: 60px;
+    height: 20px;
+    display: inline;
+    border: darkgrey;
+    margin-right: 10px;
+}
+#vi {
+    width: 30px;
+    height: 20px;
+    background-color: whitesmoke;
+    color: black;
+    float: left;
+}
+#en {
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    color: whitesmoke;
+    float: left;
+}
+#clock {
+    width: 840px;
+    height: 68px;
+    position: relative;
+    top: 20px;
+}
+#banner {
+    width: 840px;
+    height: 80px;
+    text-align: center;
+}
+.banner-overlay ul {
+    width: 840px;
+    height: 36px;
+    margin: auto;
+    display: inline-block;
+    top: 0;
+    align-content: center;
+}
+.banner-overlay ul li {
+    width: 420px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 19px;
+    text-decoration: none;
+    display: inline;
+    float: left;
+}
+
+#join {
+    /*width: 840px;*/
+    /*height: 50px;*/
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    padding-top: 20px;
+
+}
+#join button {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+#join {
+    height: 70px;
+    width: 1000px;
+    float: left;
+    margin-top: 30px;
+}
+
+#join button:hover {
+    background-color: #F88A0C;
+}
+#details{
+    width: 490px;
+    height: 45px;
+    float: left;
+    text-align: right;
+    margin-left: 10px;
+}
+#ticket {
+    width: 470px;
+    height: 45px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+#NhaTaiTro {
+    width: 950px;
+    height: 220px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 40px;
+    background-color: #a5a5a5;
+    opacity: 0.8;
+    border:white 1px solid ;
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+}
+
+#NhaTaiTro #taitrochinh {
+    width: 1000px;
+    height: 100px;
+    padding-left: 30px;
+}
+
+#NhaTaiTro #NhaDongHanh {
+    width: 1000px;
+    height: 150px;
+    padding-top: 30px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    position: relative;
+    padding-left: 7px;
+}
+#NhaTaiTro #KimCuong {
+    width: 200px;
+    height:50px;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+#NhaTaiTro #VanChuyen {
+    width: 200px;
+    height:50px;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+#NhaTaiTro #Bac1 {
+    width: 200px;
+    height:50px;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+#NhaTaiTro #Bac2 {
+    width: 200px;
+    height:50px;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+#NhaTaiTro #ToChuc {
+    width: 200px;
+    height:50px;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+
+#NhaTaiTro #NhaDongHanh #am5 {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #beatvn {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #bosua {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #fptplay {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #goldengate {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #nguyenle {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #taxigroup {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #ticketbox {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #vnexpress {
+    width: 103px;
+    height:50px;
+    float: left;
+    display: block;
+}
+
+#NhaTaiTro #NhaDongHanh #textthoigian {
+    font-size: 0.6cm;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#NhaTaiTro #NhaDongHanh #textdiadiem {
+    font-size: 0.6cm;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#textTaiTro {
+    text-align: center;
+    width: 1000px;
+    height: 30px;
+    color: white;
+    float: left;
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+
+#textinfor {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
