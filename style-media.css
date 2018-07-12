@@ -1,0 +1,603 @@
+body {
+    font-family: Montserrat,serif;
+    font-size: 100%;
+    background-image: url("image/bg.jpg");
+    }
+
+#left-menu {
+    width: 250px;
+    height: calc(100%);
+    position: absolute;
+    z-index: 999;
+}
+.main-menu {
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, 0.9);
+    width: 100%;
+}
+.main-menu .navbar-header {
+    height: 350px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.vertical-nav {
+    padding: 0;
+    clear: both;
+}
+.vertical-nav ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+    height: 310px;
+}
+
+.vertical-nav ul li {
+    position: relative;
+    width: 100%;
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.vertical-nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 8px 10px 40px;
+    font-weight: 200;
+    display: block;
+    width: 240px;
+    color: #d0d0d0;
+    font-family: Montserrat,serif;
+}
+.vertical-nav ul li a:hover {
+    background: #F88A0C;
+}
+.vertical-nav .dropdown {
+    position: absolute;
+    left:250px;
+    height: 160px;
+    top:0;
+    display: none;
+    background-color: rgba(13, 9, 9, 0.91);
+    z-index: 1;
+
+}
+.vertical-nav ul li:hover .dropdown {
+    display:block;
+}
+.vertical-nav .sub-menu {
+    position: absolute;
+    left:250px;
+    height: 80px;
+    top:0;
+    display: none;
+    background-color: #0D0909;
+    opacity: 0.9;
+    z-index: 1;
+}
+.vertical-nav ul li:hover .sub-menu {
+    display:block;
+}
+.footer-bottom {
+    bottom: 0;
+    position:inherit;
+    width: 100%;
+    padding: 0 10px;
+}
+.footer-bottom input {
+    background: rgba(91, 91, 91, 0.56);
+    border: 0;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.fa {
+    padding: 20px;
+    padding-left: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: transparent;
+    color: white;
+}
+.fa-youtube {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+.footer-bottom p {
+    color: #727272;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*CSS Gioi thieu noi dung*/
+#content {
+    font-family: Montserrat,serif;
+    background-image: url("image/background-content.jpg");
+    background-size: cover;
+    height: 750px;
+    width: 75%;
+    float: left;
+    margin-left: 20%;
+}
+#letter {
+    background-color: black;
+    height: 650px;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 2%;
+    opacity: 0.6;
+    border: solid 10px darkgray;
+}
+p.text{
+    font-size: 1em;
+    color: azure;
+    padding: 5%;
+    padding-bottom: 2%;
+}
+.author{
+    text-align: left;
+    font-style: italic;
+}
+
+.timer{
+    background-color: black;
+    height: 40px;
+    width: 23%;
+    margin-left: 2%;
+    opacity: 0.6;
+    float: left;
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    position: fixed;
+    text-align: center;
+}
+
+#footer {
+    background-image: url("image/b.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 75%;
+    float: left;
+    margin-left: 20%;
+}
+#num1{
+    margin-left: 5%;
+    float: left;
+    margin-top: 5%;
+}
+#num2{
+    margin-left: 15%;
+    float: left;
+    margin-top: 5%;
+}
+#num3{
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+#num4{
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#num5{
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+#num6{
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.imagerun{
+    background-image: url("image/slide-1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 85%;
+    margin-left: 7%;
+    clear: both;
+    margin-top: 50%;
+}
+.slide{
+    height:200px;
+    width: auto;
+}
+#logo_foodter{
+    clear: both;
+    height: 700px;
+    width: 75%;
+    float: left;
+    margin-left: 20%;
+    background-attachment: fixed;
+}
+#logo {
+    background-image: url("image/footer_banner.png");
+    background-size: cover;
+    height: 100px;
+    width: 55%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.text_1{
+    color: white;
+    font-size: 3.5em ;
+    text-align: center;
+}
+.text_2{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+.text_2,.text_1{
+    width: 2%;
+    display:table-header-group;
+}
+/* CSS thu vien hinh anh*/
+.ThanTren{
+    height: 250px;
+    width: 75%;
+    float: left;
+    margin-left: 20%;
+}
+.tit {
+    color: white;
+    font-size: 2.3em;
+    padding-left: 30%;
+    text-align: left;
+}
+.text_3{
+    color: white;
+    font-size: 1.4em;
+    padding-left: 30%
+}
+.ThanDuoi{
+    height: 700px;
+    width: 75%;
+    float: left;
+    margin-left: 20%;
+}
+#anh{
+    padding: 10px;
+}
+.can_anh{
+    height: 150px;
+    width: 200px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+/*css thu vien video*/
+.text_4{
+    width:220px;
+    height:70px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #282323;
+    opacity: 0.9;
+    background-size: auto;
+    padding-top: 10px;
+}
+.text_4\.1{
+    width:220px;
+    height:70px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #282323;
+    background-size: auto;
+    padding-top: 10px;
+}
+#videoHang1 {
+    width: 100%;
+    height: 270px;
+    float: left;
+    padding-left: 30px;
+}
+
+#video1 {
+    margin-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+    box-sizing: border-box;
+}
+
+#video2 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video3 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+    opacity: 0.9%;
+}
+
+#video4 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#videoHang2 {
+    width: 100%;
+    height: 300px;
+    float: left;
+    font-family: Font_strong_5;
+    padding-left: 30px;
+}
+
+#video5 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video6 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video7 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+    opacity: 0.9%;
+}
+
+#video8 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#videoHang3 {
+    width: 100%;
+    height: 300px;
+    float: left;
+    padding-left: 30px;
+}
+
+#video9 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video10 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video11 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+    opacity: 0.9%;
+}
+
+#video12 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#videoHang4 {
+    width: 100%;
+    height: 270px;
+    float: left;
+    padding-left: 30px;
+}
+
+#video13 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video14 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video15 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+    opacity: 0.9%;
+}
+
+#video16 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#videoHang5 {
+    width: 100%;
+    height: 270px;
+    float: left;
+    padding-left: 30px;
+}
+
+#video17 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video18 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video19 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
+
+#video20 {
+    padding-left: 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 20px ;
+    background: black;
+    background-clip: content-box;
+    color: white;
+}
