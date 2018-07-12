@@ -3,7 +3,10 @@ body {
     font-size: 100%;
     background-image: url("image/bg.jpg");
     }
-
+.main{
+    height: 1366px;
+    width: 100%;
+}
 #left-menu {
     width: 250px;
     height: calc(100%);
@@ -110,7 +113,6 @@ body {
 }
 .fa {
     padding: 20px;
-    padding-left: 20px;
     width: 60px;
     text-align: center;
     text-decoration: none;
@@ -138,7 +140,7 @@ body {
     text-align: center;
 }
 
-/*CSS Gioi thieu noi dung*/
+/*CSS intro*/
 #content {
     font-family: Montserrat,serif;
     background-image: url("image/background-content.jpg");
@@ -157,8 +159,10 @@ body {
     opacity: 0.6;
     border: solid 10px darkgray;
 }
-p.text{
+p.text {
     font-size: 1em;
+    font-style: normal;
+    font-weight: 200 lighter;
     color: azure;
     padding: 5%;
     padding-bottom: 2%;
@@ -268,7 +272,7 @@ p.text{
     width: 2%;
     display:table-header-group;
 }
-/* CSS thu vien hinh anh*/
+/* CSS image*/
 .ThanTren{
     height: 250px;
     width: 75%;
@@ -301,6 +305,7 @@ p.text{
     padding-left: 20px;
     padding-bottom: 10px;
 }
+
 /*css thu vien video*/
 .text_4{
     width:220px;
