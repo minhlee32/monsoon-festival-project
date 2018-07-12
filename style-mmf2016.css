@@ -118,7 +118,6 @@ body {
 }
 .fa {
     padding: 20px;
-    padding-left: 20px;
     width: 60px;
     text-align: center;
     text-decoration: none;
@@ -235,7 +234,7 @@ body {
     height: 500px;
     float: left;
 }
-box2{
+.box2{
     height: 500px;
     width: 50%;
     display: inline-block;
