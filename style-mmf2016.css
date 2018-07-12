@@ -1,0 +1,252 @@
+body {
+    font-family: Montserrat, serif;
+    font-size: 100%;
+    background-image: url("image/mmf2016/Toan-canh-Monsoon-Festival-2016-by-Tuborg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    width: 100%;
+}
+
+.main{
+    height: 1366px;
+    width: 100%;
+}
+#left-menu {
+    width: 250px;
+    height: calc(100%);
+    position: absolute;
+    z-index: 999;
+}
+.main-menu {
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, 0.9);
+    width: 100%;
+}
+.main-menu .navbar-header {
+    height: 350px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.vertical-nav {
+    padding: 0;
+    clear: both;
+}
+.vertical-nav ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+    height: 310px;
+}
+
+.vertical-nav ul li {
+    position: relative;
+    width: 100%;
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.vertical-nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 8px 10px 40px;
+    font-weight: 200;
+    display: block;
+    width: 240px;
+    color: #d0d0d0;
+    font-family: Montserrat,serif;
+}
+.vertical-nav ul li a:hover {
+    background: #F88A0C;
+}
+.vertical-nav .dropdown {
+    position: absolute;
+    left:250px;
+    height: 160px;
+    top:0;
+    display: none;
+    background-color: rgba(13, 9, 9, 0.91);
+    z-index: 1;
+
+}
+.vertical-nav ul li:hover .dropdown {
+    display:block;
+}
+.vertical-nav .sub-menu {
+    position: absolute;
+    left:250px;
+    height: 80px;
+    top:0;
+    display: none;
+    background-color: #0D0909;
+    opacity: 0.9;
+    z-index: 1;
+}
+.vertical-nav ul li:hover .sub-menu {
+    display:block;
+}
+.footer-bottom {
+    bottom: 0;
+    position:inherit;
+    width: 100%;
+    padding: 0 10px;
+}
+.footer-bottom input {
+    background: rgba(91, 91, 91, 0.56);
+    border: 0;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.fa {
+    padding: 20px;
+    padding-left: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: transparent;
+    color: white;
+}
+.fa-youtube {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+.footer-bottom p {
+    color: #727272;
+    font-size: 15px;
+    text-align: center;
+}
+/*css page 2016*/
+.bodypage {
+    width: 80%;
+    height: 2000px ;
+    float: right;
+}
+.timer{
+    background-color: black;
+    height: 30px;
+    width: 20%;
+    margin-left: 2%;
+    opacity: 0.7;
+    float: left;
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    text-align: center;
+    position: fixed;
+}
+/*.body\.1{*/
+    /*width: 80%;*/
+    /*height: 500px;*/
+/*}*/
+.logo2016 {
+    margin-top: 200px;
+    margin-left: 170px;
+}
+.slogan {
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 2em;
+    margin-left: 200px;
+    margin-top: 10%;
+    padding-bottom: 10%;
+    margin-right: 30%;
+}
+/*.body\.2{*/
+    /*width: 100%;*/
+    /*height: 500px;*/
+    /*float: left;*/
+/*}*/
+.box{
+    height: 400px;
+    width: 50%;
+    float: right;
+    display: inline-block;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+.title{
+    color: lime;
+    font-size: 2em;
+}
+.nam{
+    color: orangered;
+    font-size: 3em;
+}
+.anh1 {
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 5%;
+}
+.baiviet{
+    color: white;
+}
+.body\.3{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+.anh2 {
+    height: 400px;
+    width: 50%;
+    display: inline-block;
+    padding: 2% 2% 2% 2%;
+    padding-bottom: 5%;
+}
+.body\.4{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+box2{
+    height: 500px;
+    width: 50%;
+    display: inline-block;
+    padding: 5% 5% 5% 5%;
+}
+h5{
+    color: white;
+}
+.body\.5{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+/*page 2015*/
