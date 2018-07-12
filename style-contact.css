@@ -58,7 +58,7 @@ body {
     display: block;
     width: 240px;
     color: #d0d0d0;
-    font-family: Montserrat;
+    font-family: Montserrat,serif;
 }
 .vertical-nav ul li a:hover {
     background: #F88A0C;
