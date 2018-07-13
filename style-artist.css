@@ -1,0 +1,179 @@
+body {
+    font-family: Montserrat,serif ;
+    background-image: url("image/artist/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: 200;
+}
+
+.main{
+    height: 1000px;
+    width: 100%;
+}
+.main{
+    height: 1366px;
+    width: 100%;
+}
+#left-menu {
+    width: 250px;
+    height: calc(100%);
+    position: absolute;
+    z-index: 999;
+}
+.main-menu {
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, 0.9);
+    width: 100%;
+}
+.main-menu .navbar-header {
+    height: 350px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.vertical-nav {
+    padding: 0;
+    clear: both;
+}
+.vertical-nav ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+    height: 310px;
+}
+
+.vertical-nav ul li {
+    position: relative;
+    width: 100%;
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.vertical-nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 8px 10px 40px;
+    font-weight: 200;
+    display: block;
+    width: 240px;
+    color: #d0d0d0;
+    font-family: Montserrat,serif;
+}
+.vertical-nav ul li a:hover {
+    background: #F88A0C;
+}
+.vertical-nav .dropdown {
+    position: absolute;
+    left:250px;
+    height: 160px;
+    top:0;
+    display: none;
+    background-color: rgba(13, 9, 9, 0.91);
+    z-index: 1;
+
+}
+.vertical-nav ul li:hover .dropdown {
+    display:block;
+}
+.vertical-nav .sub-menu {
+    position: absolute;
+    left:250px;
+    height: 80px;
+    top:0;
+    display: none;
+    background-color: #0D0909;
+    opacity: 0.9;
+    z-index: 1;
+}
+.vertical-nav ul li:hover .sub-menu {
+    display:block;
+}
+.footer-bottom {
+    bottom: 0;
+    position:inherit;
+    width: 100%;
+    padding: 0 10px;
+}
+.footer-bottom input {
+    background: rgba(91, 91, 91, 0.56);
+    border: 0;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.fa {
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: transparent;
+    color: white;
+}
+.fa-youtube {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+.footer-bottom p {
+    color: #727272;
+    font-size: 15px;
+    text-align: center;
+}
+.bodypage {
+    margin: 15px;
+    height: 300px;
+    width: 78%;
+    float: right;
+}
+.content{
+    margin: 15px;
+}
+.nameArtist{
+    font-size:2.5em;
+    font-family: Font_strong_3;
+    color: olivedrab;
+    margin-top: 10%;
+}
+.text{
+    color: white;
+    font-family: Font_play ;
+    text-align: justify;
+    text-indent: 10%;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+.text1 {
+    color: gold;
+    font-size: 2em;
+    font-family: Font_strong_3;
+}
+.pictureArtist{
+    margin-top: 12%;
+}
