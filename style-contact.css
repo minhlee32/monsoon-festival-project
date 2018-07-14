@@ -138,7 +138,26 @@ body {
     font-size: 15px;
     text-align: center;
 }
-
+#clock-div {
+    position: absolute;
+    left: 270px;
+    top: 10px;
+    padding: 4px;
+    border-radius: 6px;
+    background: rgba(22, 22, 22, 0.6);
+    display: block;
+}
+.clock-item {
+    display: inline-block;
+    color: #fff;
+    margin-right: 0;
+}
+.clock-item span.smalltext {
+    font-weight: 400;
+    margin-left: -3px;
+    margin-right: 3px;
+    text-transform: lowercase;
+}
 .lang-area {
     position: fixed;
     width: 60px;
@@ -159,7 +178,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-active {
+.active {
     text-decoration: none !important;
     background: rgba(255, 255, 255, 0.61);
     color: #000;
