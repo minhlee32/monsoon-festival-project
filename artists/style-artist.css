@@ -1,9 +1,9 @@
 body {
-    font-family: Montserrat,serif ;
-    background-image: url("image/artist/bg.jpg");
+    background-image: url("../image/artist/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
-    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 .main{
@@ -146,7 +146,7 @@ body {
     font-size: 15px;
     text-align: center;
 }
-/*Stylesheet main artist*/
+/*Stylesheet main artists*/
 #page-content {
     position: absolute;
     width: 75vw;
@@ -193,7 +193,7 @@ body {
 .speakers-items {
     height: 730.88px;
 }
-.speakers-item {
+.speaker-item {
     width: calc(100%/4 - 1px);
     float: left;
     padding: 7px;
@@ -220,12 +220,7 @@ img {
     height: auto;
     border: 0;
 }
-.speaker-bg {
-    position: absolute;
-    top: 0px;
-    left: 229.625px;
-}
-.speakers-image .speaker-bg {
+.speakers-bg .content {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -233,8 +228,65 @@ img {
     text-align: center;
     padding: 10px;
 }
-.speaker-info {
+.speaker-bg {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
 
+.speakers-image:hover image {
+    opacity: 0.5;
+}
+.speakers-image:hover .speaker-bg {
+    opacity: 1.5;
+}
+.speaker-bg image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.speaker-info {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #92278f;
+    opacity: 0.9;
+}
+.h4 {
+    font-size: 20px;
+    clear: both;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+}
+.speakers .content span {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.speaker-social {
+    margin: 0;
+    list-style: disc;
+    padding: 0;
+}
+.speakers .speaker-item .speaker-social {
+    margin: 0px;
+}
+.speakers-five .speaker-item .speaker-social ul{
+    list-style: disc;
+    padding: 0;
 }
 #clock-div {
     position: absolute;
@@ -263,27 +315,26 @@ img {
     width: 78%;
     float: right;
 }
-.content{
+.content {
     margin: 15px;
+    font-weight: 100;
 }
 .nameArtist{
     font-size:2.5em;
-    font-family: Font_strong_3;
     color: olivedrab;
     margin-top: 10%;
 }
 .text{
     color: white;
-    font-family: Font_play ;
     text-align: justify;
     text-indent: 10%;
     line-height: 1.5;
     font-size: 1.2em;
+    font-weight: 100;
 }
 .text1 {
     color: gold;
     font-size: 2em;
-    font-family: Font_strong_3;
 }
 .pictureArtist{
     margin-top: 12%;
